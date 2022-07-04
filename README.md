@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/pyschool">pyschool</a></h1>
+<h1><a href="https://2kabhishek.github.io/pyschool">PySchool</a></h1>
 
 <a href="https://github.com/2KAbhishek/pyschool/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/pyschool?style=plastic&color=white&label=License"> </a>
@@ -23,29 +23,23 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="pyschool Demo">
-  <br/>
-  <figcaption>pyschool screenshot</figcaption>
-</figure>
+<h3>School simulation with Python 🏫🎓</h3>
 
 </div>
 
 ## What is this
 
-pyschool is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Simulate a school system with Python and OOP.
 
 ## Inspiration
 
-pyschool was inspired by `<reason/idea>`.
+Wanted to write some `doctest` and `python`.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `python`
 
 ## Getting pyschool
 
@@ -54,51 +48,20 @@ To get pyschool, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/pyschool
 cd pyschool
-<install_command>
-```
-
-## Using pyschool
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
 ```
 
 ## How it was built
 
-pyschool was built using `<tech/library>`
+pyschool was built using `neovim` and `python`.
 
 ## Challenges faced
 
-While building pyschool the main challenges were `<issue/difficulty>`
+Minor import issues were encountered.
 
 ## What I learned
 
-While building pyschool I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Explored doctest.
+- Implemented different classes with OOP.
 
 Hit the ⭐ button if you found this useful.
 
