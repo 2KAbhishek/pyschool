@@ -55,6 +55,8 @@ class Student(Person):
     Student(Jason Lee, jl2890, Sophomore)
     """
 
+    failure = "Unsuccessful operation"
+
     def __init__(self, name, ssn, year):
         super().__init__(name, ssn)
         self.year = year
@@ -86,7 +88,7 @@ class Student(Person):
             str: Failure message
         """
         if self.active == False or self.hold != None:
-            return "Unsuccessful operation"
+            return self.failure
 
         self.semesters[len(self.semesters) + 1] = Semester()
 
@@ -114,7 +116,7 @@ class Student(Person):
             return "Course already enrolled"
 
         if self.active == False or self.hold != None:
-            return "Unsuccessful operation"
+            return self.failure
 
         self.semesters[max(self.semesters.keys())].courses[
             cid
@@ -133,7 +135,7 @@ class Student(Person):
             str: Success or failure message
         """
         if self.active == False or self.hold != None:
-            return "Unsuccessful operation"
+            return self.failure
 
         if cid not in self.semesters[max(self.semesters.keys())].courses:
             return "Course not found"
@@ -156,7 +158,7 @@ class Student(Person):
             str: Failure message
         """
         if self.active == False:
-            return "Unsuccessful operation"
+            return self.failure
 
         if not self.semesters[max(self.semesters.keys())].isFullTime:
             return "Not full-time"
